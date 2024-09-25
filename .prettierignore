@@ -1,0 +1,7 @@
+build 
+node_modules
+coverage
+.next/
+frontend/next-env.d.ts
+*.yaml
+README.md
