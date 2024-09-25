@@ -1,0 +1,15 @@
+{
+    "extends": "@tsconfig/node20/tsconfig.json",
+    "compilerOptions": {
+      "incremental": true,
+      "module": "nodenext",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "lib": ["esnext", "dom"],
+      "allowImportingTsExtensions": true,
+      "typeRoots": ["../@types/", "node_modules/@types"]
+    },
+    "include": ["./**/*.ts", "../@types/*.d.ts"]
+  }
+  
