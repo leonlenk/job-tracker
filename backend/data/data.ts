@@ -23,7 +23,7 @@ export const applicationsDb : Database = new sqlite3.Database('./data/applicatio
 
 // database helper functions
 
-export async function setupStatesDb(verbose : boolean = true) {
+export async function setupApplicationsDb(verbose : boolean = true) {
     let sql : string;
 
     // drop table if it already exists
